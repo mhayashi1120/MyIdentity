@@ -2,7 +2,7 @@
 DESTDIR =
 
 VERSION = $(shell cat VERSION)
-PACKAGE = mygpgkey
+PACKAGE = myaptkey
 
 KEY_ID = 0x41CADFBF
 KEY_FILE = key.txt
