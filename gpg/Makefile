@@ -41,7 +41,7 @@ deb: $(DEBFILE)
 
 publish: deb
 	sudo cp -p $(DEBFILE) $(RELEASE_APT_DIR)
-	cd $(RELEASE_APT_DIR) && sudo ./publish
+	sudo ~/app/builder/localapt-publish
 
 $(ORIG_ARCHIVE_FILE): VERSION
 	rm -rf /tmp/$(FULLNAME)

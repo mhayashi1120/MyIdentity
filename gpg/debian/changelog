@@ -1,3 +1,15 @@
+myaptkey (1.0.2-1) unstable; urgency=low
+
+  * fix copyright
+
+ -- Masahiro Hayashi <mhayashi1120@gmail.com>  Tue, 29 Sep 2015 15:55:00 +0900
+
+myaptkey (1.0.1-1) unstable; urgency=low
+
+  * fix description
+
+ -- Masahiro Hayashi <mhayashi1120@gmail.com>  Tue, 29 Sep 2015 15:46:00 +0900
+
 myaptkey (1.0.0-1) unstable; urgency=low
 
   * Initial release
