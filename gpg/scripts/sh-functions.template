@@ -1,0 +1,13 @@
+# -*- mode: sh -*-
+
+install_apt_key()
+{
+	apt-key add <<EOF
+@@@key.txt@@@
+EOF
+}
+
+remove_apt_key()
+{
+	apt-key del @@@CURRENT_KEYID@@@
+}

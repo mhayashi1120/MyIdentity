@@ -4,7 +4,7 @@ DESTDIR =
 VERSION = $(shell cat VERSION)
 PACKAGE = myaptkey
 
-KEY_ID = 0x41CADFBF
+KEY_ID = $(shell cat CURRENT_KEYID)
 KEY_FILE = key.txt
 
 RELEASE_FILES = \
@@ -25,13 +25,14 @@ RELEASE_APT_DIR = /var/www/localnet/debian/apt/
 update:
 	gpg --export --armour $(KEY_ID) > $(KEY_FILE)
 
-deb:
+scripts/sh-functions: $(KEY_FILE) scripts/sh-functions.template
+	compose-file -o scripts/sh-functions scripts/sh-functions.template; \
 
-$(KEY_FILE):
+$(KEY_FILE): update
 
 archive: $(ORIG_ARCHIVE_FILE)
 
-update-debian:
+update-debian: scripts/sh-functions
 	for template in debian/*.template; do \
 		compose-file -o $${template%.template} $${template}; \
 	done
