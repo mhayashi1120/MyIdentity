@@ -50,7 +50,7 @@ $(ORIG_ARCHIVE_FILE): VERSION
 	tar cjvf ./release/$(FULLNAME).tar.bz2 -C /tmp $(FULLNAME);
 
 # invoke with LANG=C to prepare passphrase prompt in Emacs `shell-command'
-$(DEBFILE): archive update-debian $(ORIG_ARCHIVE_FILE)
+$(DEBFILE): update-debian $(ORIG_ARCHIVE_FILE)
 	LANG=C dpkg-buildpackage
 	cp ../$(DEBFILES) ./release/
 

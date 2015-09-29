@@ -2,7 +2,7 @@
 
 install_apt_key()
 {
-	apt-key add <<EOF
+	apt-key add - <<EOF
 @@@key.txt@@@
 EOF
 }
