@@ -1,0 +1,133 @@
+#!/bin/sh
+# postinst script for mylocalnet
+#
+# see: dh_installdeb(1)
+
+set -e
+
+# -*- mode: sh -*-
+
+install_apt_key()
+{
+	apt-key add - <<EOF
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+Version: GnuPG v1.4.12 (GNU/Linux)
+
+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
+twjbARu6mBT34O/50203K0jEYGN6IurZ6Q==
+=icHW
+-----END PGP PUBLIC KEY BLOCK-----
+
+EOF
+}
+
+remove_apt_key()
+{
+	apt-key del 0x71E0521241CADFBF
+}
+
+
+# summary of how this script can be called:
+#        * <postinst> `configure' <most-recently-configured-version>
+#        * <old-postinst> `abort-upgrade' <new version>
+#        * <conflictor's-postinst> `abort-remove' `in-favour' <package>
+#          <new-version>
+#        * <postinst> `abort-remove'
+#        * <deconfigured's-postinst> `abort-deconfigure' `in-favour'
+#          <failed-install-package> <version> `removing'
+#          <conflicting-package> <version>
+# for details, see http://www.debian.org/doc/debian-policy/ or
+# the debian-policy package
+
+
+case "$1" in
+    configure)
+		install_apt_key
+    ;;
+
+    abort-upgrade|abort-remove|abort-deconfigure)
+    ;;
+
+    *)
+        echo "postinst called with unknown argument \`$1'" >&2
+        exit 1
+    ;;
+esac
+
+# dh_installdeb will replace this with shell code automatically
+# generated by other debhelper scripts.
+
+#DEBHELPER#
+
+exit 0

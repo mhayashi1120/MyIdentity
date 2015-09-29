@@ -51,6 +51,6 @@ $(ORIG_ARCHIVE_FILE): VERSION
 
 # invoke with LANG=C to prepare passphrase prompt in Emacs `shell-command'
 $(DEBFILE): update-debian $(ORIG_ARCHIVE_FILE)
-	LANG=C dpkg-buildpackage
+	LANG=C dpkg-buildpackage -us -uc
 	mv -f ../$(DEBFILES) ./release/
 
