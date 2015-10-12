@@ -4,9 +4,13 @@ Language: Japanese (English)
 林雅博 (Hayashi Masahiro)
 
 http://mhayashi1120.net/
+
 https://github.com/mhayashi1120
+
 https://twitter.com/mhayashi1120
+
 https://www.facebook.com/mhayashi1120
+
 http://www.hatena.ne.jp/mhayashi1120/
 
 ## GPG public key
