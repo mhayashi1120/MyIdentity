@@ -5,6 +5,12 @@ Language: Japanese (English)
 
 ## SSL Root Certificate
 
+TODO how to import
+### Windows
+### Linux
+### Android
+
+
 ## GPG public key
 
 
