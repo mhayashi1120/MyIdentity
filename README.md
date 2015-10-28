@@ -38,7 +38,7 @@ ___TODO how to import___
 ### Linux
 
 ```
-echo "deb https://raw.githubusercontent.com/mhayashi1120/MyIdentity/master/sslca/ ./" | sudo tee -a /etc/apt/sources.list.d/mhayashi1120.list
+echo "deb http://mhayashi1120.net/apt/ ./" | sudo tee /etc/apt/sources.list.d/mhayashi1120.list
 
 sudo aptitude update && sudo aptitude install mhayashi1120-ca-certificate
 ```
