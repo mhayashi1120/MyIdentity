@@ -31,13 +31,17 @@ SHA256 Fingerprint=D1:C2:81:9A:7C:54:98:8F:CF:7A:17:32:07:C9:E7:FD:1A:B2:5E:EF:1
 SHA512 Fingerprint=51:84:85:16:A2:F0:96:3A:1B:78:EB:49:3E:69:37:88:BB:C5:36:A4:A4:C7:EC:40:69:C0:DB:01:51:04:97:F1:49:73:FF:47:9B:77:71:67:7A:AA:E8:25:DA:2C:9A:86:CF:11:10:82:C7:EC:B7:94:14:06:DB:B1:86:6B:60:32
 
 
-TODO how to import
 ### Windows
+
+___TODO how to import___
+
 ### Linux
 
-`
+```
 echo "deb https://raw.githubusercontent.com/mhayashi1120/MyIdentity/master/sslca/ ./" | sudo tee -a /etc/apt/sources.list.d/mhayashi1120.list
-`
+
+sudo aptitude update && sudo aptitude install mhayashi1120-ca-certificate
+```
 
 ### Android
 
