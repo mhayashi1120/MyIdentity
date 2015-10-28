@@ -1,0 +1,33 @@
+Date: Wed, 28 Oct 2015 14:44:33 UTC
+MD5Sum:
+ 097cb4e4ce9575952e54255af67d21a7              353 Contents-amd64
+ 44cbb4417737ad9c336d2ee579d4638d              177 Contents-amd64.bz2
+ 5bcfd2593edb3f1224159c0052c171ad              730 Packages
+ 6c14181fba86c575c8ca09938aab08f4              509 Packages.bz2
+ d41d8cd98f00b204e9800998ecf8427e                0 Release
+ d41d8cd98f00b204e9800998ecf8427e                0 Sources
+ 4059d198768f9f8dc9372dc1c54bc3c3               14 Sources.bz2
+SHA1:
+ 83a378235781fa42f33f408cbfd206f1e635f895              353 Contents-amd64
+ 37385f30db3c292984723a4de523f7e3e321fb4f              177 Contents-amd64.bz2
+ 9d00a33262cc115a56f3dc6db7fa30a04705908d              730 Packages
+ 06463f77759a5e321c178337d9a42559e3835acf              509 Packages.bz2
+ da39a3ee5e6b4b0d3255bfef95601890afd80709                0 Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709                0 Sources
+ 64a543afbb5f4bf728636bdcbbe7a2ed0804adc2               14 Sources.bz2
+SHA256:
+ 4f55dfbe8e562258f18009e42771941592768072b53eb832e7965bc503382fee              353 Contents-amd64
+ ce8aad2448251ba6d51758ce41743c3ab6690c28c6df0d9c37a654945cbbf3bb              177 Contents-amd64.bz2
+ 445bfc6fe61befb57984e4be9519ed4469e2b2bfe528410c4efc465b782eb6eb              730 Packages
+ 94a762efd0d2473abd4458ccd3c68d4d0184c209216c7ef72cccabfc39202b0f              509 Packages.bz2
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855                0 Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855                0 Sources
+ d3dda84eb03b9738d118eb2be78e246106900493c0ae07819ad60815134a8058               14 Sources.bz2
+SHA512:
+ 15e4c97338b3e2fd34ff86cac348af8da43f09ee85a51e18087fc4cea0b8eba6751113f473441f5ac1ab87e37788cc711bf3043f1c034f1b1badde7d15ffa19b              353 Contents-amd64
+ 5e69e135be4664dad634011df8f5e707f8579714ea9b311219f870afb0e73866ee2088432cc289a220747d8a9057f958b35fa4a090f0aebca2317ae4bf6a59db              177 Contents-amd64.bz2
+ 845edc7a1ef841bf447da78cefb988a4029b7530c2ae8e547a0074ea6498cf5a82fa2cca9642a51e074809318c5ba5b70868419c6ff6eaf1f7620628bebd179b              730 Packages
+ ce70bcd4a404f76f7ef63146a451d715274619ae7ad60c3d75ea8bfe6246cfce31d1dd9b4d2debf50561cd90c43f5408e0b459adede5ac20fb4f3e3a5723c45b              509 Packages.bz2
+ cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e                0 Release
+ cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e                0 Sources
+ 6de201dfed1d45412509c65deb34690dc2d09c6aafccfe491fd2f440f92842b9c755b61dc7bcdd4cc0c9f18cf46c2b3a1241e99c4c2a33fff5555e7b2f0b6348               14 Sources.bz2

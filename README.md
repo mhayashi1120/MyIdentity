@@ -34,6 +34,11 @@ SHA512 Fingerprint=51:84:85:16:A2:F0:96:3A:1B:78:EB:49:3E:69:37:88:BB:C5:36:A4:A
 TODO how to import
 ### Windows
 ### Linux
+
+`
+echo "deb https://raw.githubusercontent.com/mhayashi1120/MyIdentity/master/sslca/ ./" | sudo tee -a /etc/apt/sources.list.d/mhayashi1120.list
+`
+
 ### Android
 
 

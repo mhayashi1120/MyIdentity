@@ -28,12 +28,15 @@ delete_config_entry()
 	local temp=`mktemp`
 	local CONFIG=/etc/ca-certificates.conf
 
-	sed -e '|^mhayashi1120/CA-mhayashi1120.net.crt$|d' < ${CONFIG} > ${temp}
+	sed -e '\|^mhayashi1120/CA-mhayashi1120.net.crt$|d' < ${CONFIG} > ${temp}
 	mv -f ${temp} ${CONFIG}
 }
 
 case "$1" in
-    remove|purge)
+	purge)
+	;;
+
+    remove)
 		delete_symlinks
 		delete_config_entry
 
