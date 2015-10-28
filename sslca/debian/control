@@ -1,0 +1,18 @@
+Source: mhayashi1120-ca-certificate
+Priority: extra
+Maintainer: Masahiro Hayashi <mhayashi1120@gmail.com>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.3
+Section: libs
+Homepage: https://github.com/mhayashi1120/MyIdentity
+#Vcs-Git: git://git.debian.org/collab-maint/mhayashi1120-ca.git
+#Vcs-Browser: http://git.debian.org/?p=collab-maint/mhayashi1120-ca.git;a=summary
+
+Package: mhayashi1120-ca-certificate
+Section: libdevel
+Architecture: all
+Depends: ca-certificates
+Description: mhayashi1120 Private certificate
+ mhayashi1120 (http://mhayashi1120.net/) Private certificate
+
+
